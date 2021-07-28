@@ -1,0 +1,262 @@
+Day-1:HTML
+
+What is HTML?
+1. HTML is the standard markup language for creating web pages.
+2. Html stands for hyper text markup language.
+3. HTML describes the structure of web pages using markup.
+4. HTML elements are the building locks of html pages.
+5. HTML elements are represnted by tags
+6. HTML tags label pages of content such as "heading","pargraphs","table" and son on.
+7. Browser do not display the html tags,but use them to render the content of the page.
+
+HTML EDITORS:
+1.Write HTML using Notepad++ or Textedit.
+2.Web Pages can be created and modified by using professional html editors.
+3.However,for learning HTML we recommend a simple text editor like notepad (pc) or textedit(mac).
+4.We believe using a simple text editor is a good way to learn HTML.
+
+
+https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg
+
+Day-2:CSS
+Cascading style sheet (CSS) is a simple mechanism for adding stle(eg:fonts,colors,spacing) to web documents.
+
+Types of CSS:
+1.Inline Style Sheet:
+An inline style may be used to apply a unique style for a single element.
+To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+2.Internal or Embedded Style Sheet:
+An internal style sheet may be used if one single HTML page has a unique style.
+The internal style is defined inside the <style> element, inside the head section.
+
+3.Extenral Style Sheet:
+With an external style sheet, you can change the look of an entire website by changing just one file!
+Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+
+Day-3:JS
+Intro to JS
+Arithematic
+Assignment
+Concatniation
+Conditional statements
+Data Types
+Functions
+
+
+Day-4:React JS
+
+Angular-TypeScript
+React -ECMAScript
+
+Node JS:
+IDE :Visual Studio Code
+
+JavaScript:
+print -->document.write()
+console.log()
+
+Test -test
+-Object Oriented Language.
+
+.js
+(TO RUN THE JS FILE WE USE THE NODEJS PLATEFORM)
+node FileName.js
+
+In java:
+int a=12;
+float b=12.09;
+
+var a=12;
+var b=23.89;
+var c="abc";
+var name="Suraj Pawar";
+
+comments:
+single line comments - //
+multi line comments  - /*......*/
+
+
+Difference between = and == ?
+
+Variable and Functions
+varivale are used to store the data.
+functions are used to perform functionality.
+advantage of creating functions is re-usability.
+
+In JAVA:
+void show(){
+.
+.
+.
+}
+
+In ECMA:
+function funName(){
+//body
+}
+funName();
+
+Parameterised Functions:
+
+properties:variables,functions.constructors...
+
+classes:
+syntax for creating a class?
+
+class <className>{
+.
+.
+.
+}
+
+syntax for creating an objects?
+ var obj=new <className>();
+
+
+
+Day-5:ReactJS
+To develop a web application,we have 3 layers:
+1.Presentation layer=user interface --front end.
+2.Business layer.
+3.Presistence layer.
+
+MVC Architecture:
+
+1.Reactjs is a java script library whichi is used to build a re-usable ui components.
+2.Its onlu use for view layers only.
+3.It is open source,component based ui library.
+4.It is responsible for the view layer of web applications.
+5.It was intially develop by facebook and later they are used in Whatsapp.instagram and so on.
+
+Key Benefits of ReactJS :
+1.Speed
+2.Flexibility
+3.Performance
+4.Usability
+5.Mobile app development.
+
+Speed:
+the React basically allows developers to utilize individual parts of their applications on both client side and server-side ,which ultimately boots the speed of the developemnt process.
+
+Flexibility:
+Compared to other frontend frameworks ,the React code is earier to maintain and is flexible due to its modular structure ,This flexibility in turn ,save huge amount of time and cost to business.
+
+Performance:
+ReactJS was designed to provide high performance in mind.The core of the framework offers a virtual DOM program and server side rendering which makes comples apps run extremely fast.
+
+Usability:
+Deploying React is fairly easy to accomplish of you have some basic knowledge of JavaScript.
+In fact.an expert JavaScript developer can easily learn all ins and outs of the react framework in a matter of a day or two.
+
+Mobile app development:
+If you thought React is for web development only,you could not be more wrong! Facebook has already upgraded the framework for developing mobile native application for both Android and IOS platefrom.
+
+Reasons why choose React JS:
+1.Its easy to learn
+2.It help to build rish user interface
+3.It allow writing custom components.
+4.It uplifts develpoers productivity
+5.It offers fast rendering.
+6.It is SEO-friendly
+7.It comes with useful developer toolset
+8.String community support
+9.Its offers better code stability
+10.Its is used by many fortune 500 companies.
+
+Unlike Angular JS ,React JS is an open source JavaScript library that is used to develop the user interfaces for single page applications(SPAs).
+when working in the MVC architecture ,React JS handles the view layer for web and mobile applications.
+
+Why React JS is used?
+The main purpose of using ReactJS is to build amazing user interfaces (UI) of the applications making it high performaing ones.
+
+Benefits of using React JS:
+1.React JS imporves the performance of the apps having heavy load of data .
+2.Your application is tested faster as the changes made will only affect the child structure and not the parent structure due to its one way dataflow.
+3.Just like Angular Js,it is easy for the develpoers to learn and implement the React JS code.
+4.With the help of ReactJS ,you can have your Native App developed.
+5.Updating the changed parts of the applications becomes easy with the help of virtual React DOM maintained by React JS.
+
+When  to chooes React JS:
+if you have the following requirements ,you can choose React JS for your web and mobile app developement-
+1.Single Page Applications with amazing user interface.
+2.Application with heavy data load.
+3.Applications that need instant updates to the live apps.
+
+Top web applications built using React JS is:
+1.Facebook
+2.Instagram
+3.Netflix
+4.WhatsApp
+And many more...
+
+Environment set up:
+1.Node JS and NPM(node package manager).
+2.React and ReactDOM.
+3.web pack
+4.babel
+
+ways to install react js?
+1.using npm command.
+2.using creat-react-app command.
+
+To install node:
+npm install 
+
+To install react:
+npm install react --save
+npm install react-dom --save
+
+web-pack:
+-->it is used for module packaging 
+
+webpack-dev-server
+webpack
+webpack CLI
+
+npm install webpack --save
+npm install webpack-dev-server --save
+npm install webpack-cli --save
+
+Install babel:
+Babel:It is a javascript compiler and it is used to convert to source code to other.
+
+npm install babel-cre --save-dev
+npm install babel-loader --save-dev
+npm install babel-preset-env --save-dev
+npm install babel-preset-react --save-dev
+npm install babel-webpack-plugin --save-dev
+
+Following are the files to create a react js applications :
+1.index.html
+2.App.js
+3.main.js
+4.webpack.config.js --3000 or 5000 (port number)
+
+React creat-react-app :
+-creating a new react projcet is very complicated,with so many build tools .
+-it uses many dependencies,configurations files and other requirements such as Babel,web pack.
+-create-react-app remove all the complexities and creating the projectt in a single line.
+-For this ,we need to use NPM
+=>create-react-app is an excellent took for the purpose of creation and running the application very quickly.
+=>It donot add the configurations manually.
+=>This tool set up the development environment ,provides an excellent develop experience and it optimizes the app for productions.
+
+for checking the version:
+node -v
+npm -v
+npm create-react-app projectName
+
+
+
+
+
+
+
+
+
+
+
+
+
+
